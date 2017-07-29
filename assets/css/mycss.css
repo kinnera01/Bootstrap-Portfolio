@@ -1,0 +1,78 @@
+
+.text-center{
+	color:black;
+	margin-top: 10px;
+	font-weight: bold;
+}
+h4{
+	font-size: 30px;
+	padding: 10px;
+	margin-bottom: 0;
+	color: white;
+	text-decoration: none;
+}
+h3{
+	font-weight: bold;
+}
+img{
+	padding: 10px;
+}
+
+.content{
+	margin:0;
+	padding:0;
+	background:url("http://www.planwallpaper.com/static/images/abstract_color_background_picture_8016-wide.jpg");
+	background-height: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+}
+.navbar-fixed-bottom{
+background-color: #e7e7e7;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.heading{
+	background-color: teal;
+
+}
+.menu{
+	padding-top:10px;
+
+}
+li{
+	border-right: 1px solid grey;
+	font-size: 15px;
+	font-weight: bold;
+}
+.section1,.section2{
+	margin-bottom:100px;
+	margin-top: 40px;
+}
+.form-horizontal{
+	margin :0;
+}
+div.desc{
+    background-color: teal;bottom: 10px;
+    
+    color: #fff;
+    left: 35px;
+    opacity: 0.5;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    /*width: 152px;*/
+    /*text-align: center;*/
+
+}
+h5{
+	text-align:justify-all; 
+	background-color: teal;
+	margin-left: 0px;
+}
+
+.fix{
+    width: auto;
+    padding: 0px;
+}
