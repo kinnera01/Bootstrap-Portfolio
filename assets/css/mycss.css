@@ -25,15 +25,6 @@ body{
 	background-size: cover;
 
 }
-/*.content{
-	margin:0;
-	padding:0;
-	background: url(http://www.uniwallpaper.com/static/images/4640301_Zc4ESGi.jpg) no-repeat center fixed; 
-    background-size: cover;
-	background-height: cover;
-	background-position: center;
-	background-attachment: fixed;
-}*/
 .navbar-fixed-bottom{
 background-color: #e7e7e7;
 }
@@ -62,16 +53,19 @@ li{
 }
 div.desc{
     background-color: teal;bottom: 10px;
-    
-    color: #fff;
-    left: 35px;
+ 	color: #fff;
+    left: 25px;
+    right:25px;
     opacity: 0.5;
     position: absolute;
     display: inline-block;
     z-index: 1;
-    /*width: 152px;*/
-    /*text-align: center;*/
+    text-align: center;
 
+}
+.name{
+	width:100%;
+	height: auto;
 }
 h5{
 	text-align:justify-all; 
@@ -89,4 +83,35 @@ h5{
 .footer{
 
 	border-top: 4px solid black;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: teal !important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: teal;
+    color: #FFC0CB;
+}
+.fa-linkedin-square{
+	color:red;
+	padding:3px;
+}
+.fa-github-square{
+	color:darkblue;
+	padding:3px;
+}
+.fa-stack-overflow{
+	color:orange;
+	padding:3px;
+}
+.fa-facebook-square{
+	color: blue;
+	padding:3px;
+}
+.fa-twitter-square{
+	color:skyblue;
+	padding:3px;
+}
+.fa-instagram{
+	color: maroon;
+	padding:3px;
 }
