@@ -17,8 +17,15 @@ h3{
 img{
 	padding: 10px;
 }
+body{
+	background: url(http://www.uniwallpaper.com/static/images/4640301_Zc4ESGi.jpg) no-repeat center center fixed; 
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
 
-.content{
+}
+/*.content{
 	margin:0;
 	padding:0;
 	background: url(http://www.uniwallpaper.com/static/images/4640301_Zc4ESGi.jpg) no-repeat center fixed; 
@@ -26,8 +33,7 @@ img{
 	background-height: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-repeat: repeat-y;
-}
+}*/
 .navbar-fixed-bottom{
 background-color: #e7e7e7;
 }
