@@ -17,6 +17,11 @@ h3{
 img{
 	padding: 10px;
 }
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 240px;
+}
 body{
 	background: url(http://www.uniwallpaper.com/static/images/4640301_Zc4ESGi.jpg) no-repeat center center fixed; 
 	-webkit-background-size:cover;
